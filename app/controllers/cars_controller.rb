@@ -6,6 +6,8 @@ class CarsController < ApplicationController
   def index
     @cars = Car.all
   end
+  def hhh
+  end
 
   # GET /cars/1
   # GET /cars/1.json
